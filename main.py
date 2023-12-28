@@ -4,7 +4,7 @@ import tensorflow as tf
 import streamlit as st
 import cv2
 
-model = tf.keras.models.load_model(r"C:\Users\abdul\Downloads\dogbreed.h5")
+model = tf.keras.models.load_model(r"dogbreed.h5")
 
 CLASS_NAMES = ["scottish deerhound","maltese dog","bernese mountain dog"]
 
