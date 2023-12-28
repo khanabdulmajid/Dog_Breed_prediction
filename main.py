@@ -2,7 +2,7 @@ import numpy as np
 # import pandas as pd
 import tensorflow as tf
 import streamlit as st
-import cv2
+# import cv2
 
 model = tf.keras.models.load_model(r"dogbreed.h5")
 
